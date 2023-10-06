@@ -5,6 +5,7 @@ import { UpdateInvoiceDto } from './dto/update-invoice.dto';
 
 @Controller('invoices')
 export class InvoicesController {
+  
   constructor(private readonly invoicesService: InvoicesService) {}
 
   @Post()
